@@ -1,0 +1,60 @@
+<h2>Buscar razas</h2>
+<hr>
+<div class="row">
+  <div class="col">
+    <shared-buscador
+      placeholder="Buscar raza"
+      [initialValue]="initialValue"
+      (onDebounce)="buscarRaza($event)">
+    </shared-buscador>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col">
+    <shared-loading-sniper *ngIf="isLoading"></shared-loading-sniper>
+    <div *ngIf="!raza?.name; else dataTemplate" class="alert alert-warning text-center">
+      No hay datos de la raza que mostrar
+    </div>
+    <ng-template #dataTemplate>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Velocidad</th>
+            <th>Bonificación de habilidades</th>
+            <th>Alineación</th>
+            <th>Edad</th>
+            <th>Tamaño</th>
+            <th>Idiomas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{ raza?.index }}</td>
+            <td>{{ raza?.name }}</td>
+            <td>{{ raza?.speed }}</td>
+            <td>
+              <ul>
+                <li *ngFor="let bonus of raza?.ability_bonuses">
+                  {{ bonus.ability_score.name }}: {{ bonus.bonus }}
+                </li>
+              </ul>
+            </td>
+            <td>{{ raza?.alignment }}</td>
+            <td>{{ raza?.age }}</td>
+            <td>{{ raza?.size }}</td>
+            <td>
+              <ul>
+                <li *ngFor="let language of raza?.languages">
+                  {{ language.name }}
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ng-template>
+  </div>
+</div>

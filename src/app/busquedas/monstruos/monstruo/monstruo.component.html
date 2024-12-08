@@ -1,0 +1,62 @@
+<h2> Buscar Monstruos</h2>
+<hr>
+<div class="row">
+
+  <div class="col">
+      <shared-buscador
+      placeholder="Buscar Monstruo"
+      [initialValue]="initialValue"
+      (onDebounce)="buscarMonstruo($event)">
+      </shared-buscador>
+  </div>
+</div>
+
+<hr>
+<div class="row">
+  <div class="col">
+    <shared-loading-sniper *ngIf="isLoading"></shared-loading-sniper>
+    <div *ngIf="!monstruo?.name; else dataTemplate" class="alert alert-warning text-center">
+      No hay datos del monstruo que mostrar
+    </div>
+    <ng-template #dataTemplate>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Tamaño</th>
+            <th>Tipo</th>
+            <th>Alineación</th>
+            <th>Puntos de golpe</th>
+            <th>Velocidad</th>
+            <th>Imagen</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{ monstruo?.index }}</td>
+            <td>{{ monstruo?.name }}</td>
+            <td>{{ monstruo?.size }}</td>
+            <td>{{ monstruo?.type }}</td>
+            <td>{{ monstruo?.alignment }}</td>
+            <td>{{ monstruo?.hit_points }}</td>
+            <td>{{ monstruo?.speed?.walk }}</td>
+            <td>
+              <img
+                [src]="monstruo?.image"
+                [alt]="monstruo?.name"
+                class="img-fluid rounded monster-img"
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ng-template>
+
+
+  </div>
+
+
+</div>
+
+
