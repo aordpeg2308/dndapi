@@ -22,7 +22,7 @@ Ejemplos de nombres de monstruos:
 - Vampire  
 - Constrictor Snake  
 
-Consulta todos los monstruos disponibles en la documentación oficial: [API de Monstruos](https://www.dnd5eapi.co/api/monsters/)&#8203;:contentReference[oaicite:0]{index=0}.
+Consulta todos los monstruos disponibles en la documentación oficial: [API de Monstruos](https://www.dnd5eapi.co/api/monsters/)
 
 ---
 
