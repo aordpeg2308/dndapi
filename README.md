@@ -1,7 +1,5 @@
 # D&D 5th Edition API - Documentación y Parámetros Válidos
 
-Este repositorio contiene información y parámetros válidos para interactuar con la API de D&D 5th Edition. Puedes obtener detalles sobre monstruos y razas desde el siguiente enlace:
-
 **API Principal:** [https://www.dnd5eapi.co](https://www.dnd5eapi.co)
 
 ---
