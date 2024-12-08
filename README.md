@@ -10,9 +10,9 @@ Este repositorio contiene información y parámetros válidos para interactuar c
 
 ### **Monstruos**  
 
-Para obtener información sobre monstruos, utiliza el endpoint:
+Para obtener información sobre monstruos clickea en buscar Monstruo y escribe un monstruo válido.
 
-GET https://www.dnd5eapi.co/api/monsters/{nombreMonster}
+
 
 Ejemplos de nombres de monstruos:
 
@@ -28,7 +28,7 @@ Consulta todos los monstruos disponibles en la documentación oficial: [API de M
 
 ### **Razas**  
 
-Para obtener detalles sobre razas, utiliza el endpoint:
+Para obtener detalles sobre razas, clickea en buscar Raza  y escribe una raza válida.
 GET https://www.dnd5eapi.co/api/races/{nombreRaza} 
 
 ---
