@@ -30,7 +30,7 @@ Consulta todos los monstruos disponibles en la documentación oficial: [Monstruo
 
 Para obtener detalles sobre razas, clickea en buscar Raza  y escribe una raza válida.
 
-Consulta todas las razas disponibles en la documentación oficial: [Razas]([https://www.dnd5eapi.co/api/monsters/](https://www.dnd5eapi.co/api/races/)
+Consulta todas las razas disponibles en la documentación oficial: [Razas](https://www.dnd5eapi.co/api/races/)
 
 
 ---
