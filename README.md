@@ -25,3 +25,28 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+##Busquedas Realizadas
+Monstruos:
+Aboleth
+Adult Black Dragon
+Bandit
+Goblin
+Vampire
+Giant Owl
+Constrictor Snake
+White Dragon Wyrmling
+Flying Sword
+Puedes ver más detalles en el sitio oficial de la API: D&D 5th Edition API - Monsters​
+D&D 5TH EDITION API
+.
+
+Razas:
+Las razas de D&D incluyen nombres como:
+
+Humano (Human)
+Enano (Dwarf)
+Elfo (Elf)
+Halfling
+Dragonborn
+Tiefling
+Para obtener una lista más específica y actualizada de razas y sus detalles, visita: D&D Races API
