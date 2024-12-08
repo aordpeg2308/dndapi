@@ -22,14 +22,16 @@ Ejemplos de nombres de monstruos:
 - Vampire  
 - Constrictor Snake  
 
-Consulta todos los monstruos disponibles en la documentación oficial: [API de Monstruos](https://www.dnd5eapi.co/api/monsters/)
+Consulta todos los monstruos disponibles en la documentación oficial: [Monstruos](https://www.dnd5eapi.co/api/monsters/)
 
 ---
 
 ### **Razas**  
 
 Para obtener detalles sobre razas, clickea en buscar Raza  y escribe una raza válida.
-GET https://www.dnd5eapi.co/api/races/{nombreRaza} 
+
+Consulta todas las razas disponibles en la documentación oficial: [Razas]([https://www.dnd5eapi.co/api/monsters/](https://www.dnd5eapi.co/api/races/)
+
 
 ---
 
